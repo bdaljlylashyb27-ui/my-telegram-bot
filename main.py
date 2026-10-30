@@ -1,10 +1,10 @@
 import os, telebot, sqlite3, random, hashlib
 from telebot import types
 
-BOT_TOKEN = os.getenv("BOT_TOKEN") or "حط توكن بوتك هنا من @BotFather"
-ADMIN_ID = int(os.getenv("ADMIN_ID") or "123456789") # راح تجيبه من @userinfobot
-ADMIN_USERNAME = "Aa151000" # حسابك الشخصي
-BOT_USERNAME = "Ahvfg0555bot" # بوتك
+BOT_TOKEN = os.getenv("BOT_TOKEN") or "8898773489:AAHrtseaLsiv117yl_CCROOxOvW-zsw1oOQ@BotFather"
+ADMIN_ID = int(os.getenv("ADMIN_ID") or "7093374788") # راح تجيبه من @userinfobot
+ADMIN_USERNAME = "Aa151000" # @Ahvfg0555bot
+BOT_USERNAME = "Ahvfg0555bot" # @Aa151000
 
 bot = telebot.TeleBot(BOT_TOKEN)
 conn = sqlite3.connect('bot.db', check_same_thread=False)
