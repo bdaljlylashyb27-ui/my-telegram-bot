@@ -55,7 +55,7 @@ def start(msg):
     if not user:
         bot.send_message(msg.chat.id, f"@bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, "مرحبا بك في بوت الارقام الوهمية.")
+    bot.reply_to(message, "😍مرحبا بك في بوت الارقام الوهمية.")
         {msg.from_user.first_name} 👋 في بوت @{BOT_USERNAME}\n\nالبوت شغال 24 ساعة 🟢\n\nالخطوة 1: اختر اسم لحسابك الخاص (مثلا: albraa123)")
         user_states[uid] = "wait_custom_id"
         return
